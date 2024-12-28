@@ -70,7 +70,6 @@
 }
 
 main{
-    width: 100vw;
     height: 90vh;
     background-image: url('Assets/Background.png');
     background-position: center;
@@ -419,4 +418,98 @@ main p{
     @media (max-width: 800px) {
         margin: auto;
     }
+}
+
+
+
+/* ************* FeaturedProperties section ************* */
+
+.FeaturedProperties{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Manrope;
+}
+
+.FeaturedProperties h1{
+    font-weight: 700;
+    color: #1F4B43;
+    margin-bottom: 18px;
+}
+
+.FeaturedProperties > p{
+    color: #141115;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+#HouseCardContainer{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    @media (max-width: 1000px) {
+        gap: 10px;
+    }
+    @media (max-width: 930px) {
+        flex-wrap: wrap;
+    }
+}
+
+.card{
+    width: 430px;
+    gap: 22px;
+    @media (max-width: 1450px) {
+        width: 300px;
+    }
+}
+
+.card img{
+    @media (max-width: 1450px) {
+        width: 300px;
+    }
+}
+
+.cardTitleContainer{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    align-items: center;
+}
+
+.cardTitleContainer h3{
+    font-weight: 600;
+    color: black;
+}
+
+.badgeContainer{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+
+.cardBadge{
+    width: fit-content;
+    background-color: #DEDEDE;
+    font-weight: 500;
+    color: #011948;
+    padding: 6px 8px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    @media (max-width: 1450px) {
+        font-size: 12px;
+    }
+}
+
+.card p{
+    font-weight: 100;
+    font-size: 20px;
+    color: #909090;
 }
