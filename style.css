@@ -400,7 +400,7 @@ main p{
     }
 }
 
-.NeighborhoodGuidesSection button{
+.NeighborhoodGuidesSection button,.dwdBtn {
     width: 253px;
     height: 45px;
     display: flex;
@@ -512,4 +512,118 @@ main p{
     font-weight: 100;
     font-size: 20px;
     color: #909090;
+}
+
+
+
+/* PropertySale Section */
+
+.PropertySaleSeection{
+    display: flex;
+    justify-content: center;
+    font-family: Manrope;
+    margin-left: auto;
+    padding-top: 100px;
+    gap: 100px;
+    @media (max-width: 1390px) {
+        gap: 10px;
+    }
+    @media (max-width: 943px) {
+        flex-wrap: wrap;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+.PropertySaleSeectionH1Conatainer{
+    display: flex;
+    flex-direction: column;
+    @media (max-width: 943px) {
+        align-items: center;
+    }
+}
+
+
+.PropertySaleSeection h1{
+    color: #1F4B43;
+    width: 450px;
+    @media (max-width: 943px) {
+        font-size: 20px;
+    }
+}
+.PropertySaleSeectionH1{
+    font-weight: 800;
+    @media (max-width: 943px) {
+        font-size: 26px !important;
+    }
+}
+
+.PropertySaleSeection p{
+    font-size: 20px;
+    width: 600px;
+    margin-block: 20px;
+    @media (max-width: 1390px) {
+        font-size: 17px;
+    }
+    @media (max-width: 1093px) {
+        width: 400px;
+    }
+    @media (max-width: 943px) {
+        font-size: 15px;
+        width: 350px;
+    }
+}
+
+.dwdBtn{
+    @media (max-width: 943px) {
+        margin: auto;
+    }
+}
+
+.houseSaleIconContainer{
+    display: flex;
+    width: fit-content;
+    @media (max-width: 943px) {
+        margin: auto;
+    }
+
+}
+
+.houseSaleIcon1{
+    z-index: -3;
+}
+
+.houseSaleIcon2{
+    transform: translateX(-15px);
+    -webkit-transform: translateX(-15px);
+    -moz-transform: translateX(-15px);
+    -ms-transform: translateX(-15px);
+    -o-transform: translateX(-15px);
+    z-index: -2;
+}
+
+.houseSaleIcon3{
+    z-index: -1;
+    transform: translateX(-30px);
+    -webkit-transform: translateX(-30px);
+    -moz-transform: translateX(-30px);
+    -ms-transform: translateX(-30px);
+    -o-transform: translateX(-30px);
+}
+
+.houseSaleIcon4{
+    transform: translateX(-50px);
+    -webkit-transform: translateX(-50px);
+    -moz-transform: translateX(-50px);
+    -ms-transform: translateX(-50px);
+    -o-transform: translateX(-50px);
+}
+
+.houseImg{
+    @media (max-width: 1390px) {
+        width: 451px;
+    }
+    @media (max-width: 943px) {
+        width: 300px;
+    }
 }
