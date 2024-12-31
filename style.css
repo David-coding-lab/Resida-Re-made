@@ -437,12 +437,18 @@ main p{
     font-weight: 700;
     color: #1F4B43;
     margin-bottom: 18px;
+    @media (max-width: 417px) {
+        font-size: 28px;
+    }
 }
 
 .FeaturedProperties > p{
     color: #141115;
     line-height: 28px;
     font-size: 16px;
+    @media (min-width: 1170px) {
+        width: 1200px;
+    }
 }
 
 #HouseCardContainer{
@@ -523,15 +529,16 @@ main p{
     justify-content: center;
     font-family: Manrope;
     margin-left: auto;
-    padding-top: 100px;
+    padding-block: 100px;
     gap: 100px;
     @media (max-width: 1390px) {
         gap: 10px;
     }
     @media (max-width: 943px) {
         flex-wrap: wrap;
-        padding: 20px;
+        padding-block: 20px;
         text-align: center;
+        gap: 0;
     }
 }
 
@@ -626,4 +633,161 @@ main p{
     @media (max-width: 943px) {
         width: 300px;
     }
+}
+
+
+/* **************DiscoverHomesSection************ */
+
+.DiscoverHomesSection{
+    height: 40vh;
+    background-image: url(Assets/discoverSectionBg.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    @media (min-width: 1142px) {
+        height: 50vh;
+    }
+}
+
+.DiscoverHomesSection button{
+    width: 200px;
+    background-color: #E7C873;
+    border: none;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: #1F4B43;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.DiscoverHomesSection h1{
+    font-weight: 700;
+    @media (min-width: 1142px) {
+        width: 400px;
+        text-align: center;
+    }
+    @media (max-width: 691px) {
+        width: 350px;
+        text-align: center;
+        font-size: 25px;
+    }
+}
+
+
+/* ******************FindHomesSection*************** */
+
+.FindHomesSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.FindHomesSection h1{
+    font-family: Manrope;
+    font-weight: 700;
+    color: #1F4B43;
+    margin-bottom: 20px;
+    @media (max-width: 757px) {
+        font-size: 28px;
+        width: 350px;
+        text-align: center;
+    }
+}
+
+.ApartmentinLagos{
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 200;
+    @media (max-width: 757px) {
+        font-size: 18px;
+        width: 300px;
+        text-align: center;
+    }
+}
+
+.FindHomesCardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.FindHomesCard{
+    width: 324px;
+    height: 251px;
+    border-radius: 16px;
+    /*background-color: #DBA94D;
+    */-webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 20px;
+    -webkit-border-radius: 16px;
+    @media(max-width: 757px){
+        width: 300px;
+    }
+}
+
+.FindHomesCard1{
+    background-image: url(Assets/LekkiBgimg.png);
+}
+.FindHomesCard2{
+    background-image: url(Assets/Agegebgimg.png);
+}
+.FindHomesCard3{
+    background-image: url(Assets/Gbagadabgimg.png);
+}
+.FindHomesCard4{
+    background-image: url(Assets/Obalendebgimg.png);
+}
+.FindHomesCard5{
+    background-image: url(Assets/Yababgimg.png);
+}
+.FindHomesCard6{
+    background-image: url(Assets/discoverSectionBg.png);
+}
+
+
+.FindHomesCard div{
+    width: 280px;
+    height: 80px;
+    backdrop-filter: blur(50px);
+    border-radius: 16px;
+    color: #fff;
+    font-family: Manrope;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.FindHomesCard p{
+    font-weight: 300;
+    margin: 0;
+    font-size: 12px;
+}
+
+.FindHomesCard h3{
+    margin: 0;
+    font-size: 20px;
 }
