@@ -791,3 +791,60 @@ main p{
     margin: 0;
     font-size: 20px;
 }
+
+
+
+
+/* **********************needAnOfficeSpaceSection****************************** */
+
+.needAnOfficeSpaceSection{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    @media (max-width: 1190px) {
+        gap: 30px;
+    }
+    @media (max-width: 801px) {
+        flex-wrap: wrap;
+        gap: 0;
+        text-align: center;
+    }
+}
+
+.needAnOfficeSpaceSection img{
+    @media (max-width: 956px) {
+        width: 300px;
+    }
+}
+
+.needAnOfficeSpaceSection div h1{
+    font-family: Manrope;
+    font-weight: 700;
+    color: #1F4B43;
+    margin-bottom: 50px;
+    @media (max-width: 870px) {
+    margin-bottom: 50px;
+    }
+    @media (max-width: 500px) {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+}
+
+.needAnOfficeSpaceSection div p{
+    font-size: 18px;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.60);
+    width: 700px;
+    @media (max-width: 1190px) {
+        width: 500px;
+    }
+    @media (max-width: 500px) {
+        font-size: 15px;
+        padding: 10px;
+        width: 400px;
+    }
+
+}
