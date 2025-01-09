@@ -81,3 +81,4 @@ function Cards(cardImgSrc,cardName, [cardBadges1, cardBadges2,cardBadges3], card
 cardContainer.innerHTML += Cards('/cardImg1.png', 'Lillian Pepple Estate', ['Duplexes','Bungalows', 'Self-Contains'], '1,500,000')
 cardContainer.innerHTML += Cards('/cardImg2.png', 'Naanchin Homes', ['flats','Bungalows', 'Accommodations'], '500,000')
 cardContainer.innerHTML += Cards('/cardImg3.png', 'Horeb Accomodations', ['Mansions','Bungalows', 'Office spaces'], '2,500,000')
+

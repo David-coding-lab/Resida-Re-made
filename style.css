@@ -844,7 +844,116 @@ main p{
     @media (max-width: 500px) {
         font-size: 15px;
         padding: 10px;
-        width: 400px;
+        width: 300px;
     }
 
+}
+
+
+
+/* *************DownloadOurAppSection************* */
+
+.DownloadOurAppSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Manrope;
+    gap: 50px;
+    height: auto;
+    padding-block: 50px;
+    @media (max-width: 925px) {
+        gap: 20px;
+    }
+    @media (max-width: 799px) {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+}
+.DownloadOurAppSectionTextContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.DownloadOurAppSectionTextContainer h1{
+    color: #1F4B43;
+    font-weight: 800;
+    @media (min-width: 900px) {
+        width: 200px;
+        line-height: 40px;
+    }
+    @media (max-width: 455px) {
+        font-size: 28px;
+    }
+}
+
+.DownloadOurAppSectionTextContainer p{
+    width: 650px;
+    line-height: 30px;
+    font-size: 18px;
+    @media (max-width: 1235px) {
+        width: 500px;
+    }
+    @media (max-width: 925px) {
+        font-size: 17px;
+        width: 400px;
+    }
+    @media (max-width: 455px) {
+        width: 300px;
+    }
+}
+
+
+.ctaButton{
+    display: flex;
+    gap: 20px;
+    @media (max-width: 455px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.ctaButton button{
+    width: 240px;
+    display: flex;
+    background-color: #1F4B43;
+    color: white;
+    height: 65px;
+    text-align: start;
+    border: none;
+    gap: 15px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 925px) {
+        width: 200px;
+        height: 60px;
+    }
+    @media (max-width: 455px) {
+        width: 300px;
+    }
+}
+
+.DownloadOurAppSection button p{
+    border-left: 1px solid white;
+    padding-left: 15px;
+    width: 180px;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.DownloadOurAppSection .phoneImg{
+    @media (max-width: 1073px) {
+        width: 350px;
+    }
+    @media (max-width: 925px) {
+        width: 300px;
+    }
 }
