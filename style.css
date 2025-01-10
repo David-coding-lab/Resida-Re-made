@@ -720,7 +720,6 @@ main p{
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
-    width: 100vw;
     justify-content: center;
     align-items: center;
 }
