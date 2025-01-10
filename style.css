@@ -728,8 +728,7 @@ main p{
     width: 324px;
     height: 251px;
     border-radius: 16px;
-    /*background-color: #DBA94D;
-    */-webkit-border-radius: 16px;
+    -webkit-border-radius: 16px;
     -moz-border-radius: 16px;
     -ms-border-radius: 16px;
     -o-border-radius: 16px;
@@ -955,4 +954,78 @@ main p{
     @media (max-width: 925px) {
         width: 300px;
     }
+}
+
+/* ******Footer****** */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F4B43;
+    height: 330px;
+    color: white;
+}
+
+.quickLinksParent{
+    display: flex;
+    gap: 120px;
+}
+
+.footerDiscription{
+    font-family: Manrope;
+    letter-spacing: 1px;
+}
+
+.Icons{
+    display: flex;
+    gap: 20px;
+}
+.Icons img{
+    cursor: pointer;
+}
+
+.quickLinks{
+    display: flex;
+    gap: 80px;
+    font-family: Poppins;
+}
+.quickLinks p{
+    cursor: pointer;
+}
+
+.contactAddressContainer{
+    display: flex;
+    width: 1120px;
+    gap: 30px;
+    font-family: Poppins;
+    margin-top: 30px;
+}
+.contactAddressContainer div{
+    gap: 10px;
+    display: flex;
+}
+
+hr{
+    width: 1120px;
+}
+
+.legalStuffContainer{
+    display: flex;
+    width: 1120px;
+    margin-top: 20px;
+    font-family: Poppins;
+}
+
+.copyRights{
+    margin-right: auto;
+}
+
+.strokes{
+    padding-inline: 10px;
+}
+
+.TermsAndPolicy{
+    text-decoration: underline;
+    cursor: pointer;
 }
