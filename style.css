@@ -965,21 +965,54 @@ footer{
     background-color: #1F4B43;
     height: 330px;
     color: white;
+    @media (max-width: 731px) {
+        height: auto;
+        padding-block: 20px;
+    }
+    @media (max-width: 530px) {
+        align-items: start;
+        padding-inline: 20px;
+    }
 }
 
 .quickLinksParent{
     display: flex;
     gap: 120px;
+    @media (max-width: 1180px) {
+        gap: 50px;
+    }
+    @media (max-width: 731px) {
+        display: block;
+    }
+}
+
+.quickLinksParent h1{
+    @media (max-width: 1180px) {
+        font-size: 28px;
+    }
 }
 
 .footerDiscription{
     font-family: Manrope;
     letter-spacing: 1px;
+    width: 300px;
+    @media (max-width: 1180px) {
+        font-size: 12px;
+    }
+    @media (max-width: 844px) {
+        width: 150px;
+    }
+    @media (max-width: 727px) {
+        margin-bottom: 25px;
+    }
 }
 
 .Icons{
     display: flex;
     gap: 20px;
+    @media (max-width: 727px) {
+        margin-bottom: 25px;
+    }
 }
 .Icons img{
     cursor: pointer;
@@ -989,9 +1022,24 @@ footer{
     display: flex;
     gap: 80px;
     font-family: Poppins;
+    @media (max-width: 1012px) {
+        gap: 30px;
+    }
+    @media (max-width: 530px) {
+        display: block;
+    }
+}
+
+.quickLinks h4{
+    @media (max-width: 1180px) {
+        font-size: 15px;
+    }
 }
 .quickLinks p{
     cursor: pointer;
+    @media (max-width: 1180px) {
+        font-size: 12px;
+    }
 }
 
 .contactAddressContainer{
@@ -1000,22 +1048,80 @@ footer{
     gap: 30px;
     font-family: Poppins;
     margin-top: 30px;
+    @media (max-width: 1180px) {
+        width:946px;
+    }
+    @media (max-width: 1012px) {
+        width: 796px;
+    }
+    @media (max-width: 844px) {
+        width: 703px;
+    }
+    @media (max-width: 727px) {
+        width: 488px;
+    }
+    @media (max-width: 727px) {
+        gap: 15px;
+    }
+    @media (max-width: 530px) {
+        display: block;
+        width: auto;
+    }
 }
+
 .contactAddressContainer div{
     gap: 10px;
     display: flex;
 }
 
+.contactAddressContainer div img{
+    width: 20px;
+    height: 20px;
+}
+
 hr{
     width: 1120px;
+    @media (max-width: 1180px) {
+        width:946px;
+    }
+    @media (max-width: 1012px) {
+        width: 796px;
+    }
+    @media (max-width: 844px) {
+        width: 703px;
+    }
+    @media (max-width: 727px) {
+        width: 488px;
+    }
+    @media (max-width: 530px) {
+        width: 100%;
+    }
 }
+
 
 .legalStuffContainer{
     display: flex;
     width: 1120px;
     margin-top: 20px;
     font-family: Poppins;
+    @media (max-width: 1180px) {
+        width:946px;
+    }
+    @media (max-width: 1012px) {
+        width: 796px;
+    }
+    @media (max-width: 844px) {
+        width: 703px;
+    }
+    @media (max-width: 727px) {
+        width: 488px;
+    }
+    @media (max-width: 530px) {
+        display: block;
+        width: auto;
+    }
 }
+
 
 .copyRights{
     margin-right: auto;
@@ -1023,6 +1129,9 @@ hr{
 
 .strokes{
     padding-inline: 10px;
+    @media (max-width: 530px) {
+        padding-inline: 0;
+    }
 }
 
 .TermsAndPolicy{
